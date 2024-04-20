@@ -1,0 +1,29 @@
+{
+  "name": "kaistian",
+  "description": "A comprehensive suite of TypeScript packages designed to streamline the integration and utilization of KAIST APIs",
+  "license": "MIT",
+  "author": "Injoon Hwang <yuwol036@gmail.com>",
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "package.json": "sort-package-json"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5",
+    "sort-package-json": "^2.10.0",
+    "typescript": "^5.4.5"
+  },
+  "packageManager": "pnpm@8.15.5",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": "8.15.5"
+  }
+}
