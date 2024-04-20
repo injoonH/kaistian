@@ -12,6 +12,9 @@
     "module": "ESNext",
     "moduleResolution": "Node",
 
+    /* Emit */
+    "noEmit": true,
+
     /* Language and Environment */
     "target": "ESNext"
   }
