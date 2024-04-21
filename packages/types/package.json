@@ -1,0 +1,27 @@
+{
+  "name": "@kaistian/types",
+  "version": "0.1.0",
+  "description": "Typescript types for KAISTian projects",
+  "keywords": [
+    "kaist",
+    "kaistian",
+    "types"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/injoonH/kaistian.git",
+    "directory": "packages/types"
+  },
+  "license": "MIT",
+  "author": "Injoon Hwang <yuwol036@gmail.com>",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  }
+}
