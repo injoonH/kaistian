@@ -40,6 +40,14 @@ importers:
         specifier: ^6.9.14
         version: 6.9.15
 
+  packages/sso:
+    dependencies:
+      zod:
+        specifier: ^3.22.4
+        version: 3.22.5
+
+  packages/types: {}
+
 packages:
 
   /@babel/code-frame@7.24.2:
@@ -1828,3 +1836,7 @@ packages:
     resolution: {integrity: sha512-8aAvwVUSHpfEqTQ4w/KMlf3HcRdt50E5ODIQJBw1fQ5RL34xabzxtUlzTXVqc4rkZsPbvrXKWnABCD7kWSmocA==}
     engines: {node: '>= 14'}
     dev: true
+
+  /zod@3.22.5:
+    resolution: {integrity: sha512-HqnGsCdVZ2xc0qWPLdO25WnseXThh0kEYKIdV5F/hTHO75hNZFp8thxSeHhiPrHZKrFTo1SOgkAj9po5bexZlw==}
+    dev: false
