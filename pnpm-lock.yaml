@@ -66,6 +66,12 @@ importers:
 
   packages/urs:
     dependencies:
+      '@kaistian/fetch':
+        specifier: workspace:../fetch
+        version: link:../fetch
+      '@kaistian/sso':
+        specifier: workspace:../sso
+        version: link:../sso
       '@kaistian/types':
         specifier: workspace:../types
         version: link:../types

@@ -22,6 +22,8 @@
     "dist"
   ],
   "dependencies": {
+    "@kaistian/fetch": "workspace:../fetch",
+    "@kaistian/sso": "workspace:../sso",
     "@kaistian/types": "workspace:../types",
     "dateformat": "^5.0.3",
     "zod": "^3.22.4"
