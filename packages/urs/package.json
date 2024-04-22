@@ -22,6 +22,11 @@
     "dist"
   ],
   "dependencies": {
-    "@kaistian/types": "workspace:../types"
+    "@kaistian/types": "workspace:../types",
+    "dateformat": "^5.0.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/dateformat": "^5.0.2"
   }
 }
