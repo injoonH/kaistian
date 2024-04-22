@@ -26,6 +26,8 @@
     "lint": "tsc"
   },
   "dependencies": {
+    "@kaistian/fetch": "workspace:../fetch",
+    "@kaistian/types": "workspace:../types",
     "zod": "^3.22.4"
   }
 }

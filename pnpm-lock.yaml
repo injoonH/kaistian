@@ -42,6 +42,12 @@ importers:
 
   packages/sso:
     dependencies:
+      '@kaistian/fetch':
+        specifier: workspace:../fetch
+        version: link:../fetch
+      '@kaistian/types':
+        specifier: workspace:../types
+        version: link:../types
       zod:
         specifier: ^3.22.4
         version: 3.22.5
