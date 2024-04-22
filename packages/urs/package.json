@@ -1,0 +1,27 @@
+{
+  "name": "@kaistian/urs",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [
+    "kaist",
+    "kaistian",
+    "urs",
+    "reservation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/injoonH/kaistian.git",
+    "directory": "packages/urs"
+  },
+  "license": "MIT",
+  "author": "Injoon Hwang <yuwol036@gmail.com>",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@kaistian/types": "workspace:../types"
+  }
+}

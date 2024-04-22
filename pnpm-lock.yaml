@@ -61,6 +61,12 @@ importers:
 
   packages/types: {}
 
+  packages/urs:
+    dependencies:
+      '@kaistian/types':
+        specifier: workspace:../types
+        version: link:../types
+
 packages:
 
   /@babel/code-frame@7.24.2:
