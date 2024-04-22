@@ -1,0 +1,33 @@
+{
+  "name": "@kaistian/sso",
+  "version": "0.1.0",
+  "description": "KAIST SSO Authentication Library",
+  "keywords": [
+    "kaist",
+    "kaistian",
+    "sso",
+    "auth"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/injoonH/kaistian.git",
+    "directory": "packages/sso"
+  },
+  "license": "MIT",
+  "author": "Injoon Hwang <yuwol036@gmail.com>",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "dependencies": {
+    "@kaistian/fetch": "workspace:../fetch",
+    "@kaistian/types": "workspace:../types",
+    "zod": "^3.22.4"
+  }
+}
