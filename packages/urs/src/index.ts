@@ -1,4 +1,5 @@
 export * from './error'
+export * from './getReservationStates'
 export * from './getUrsSessionId'
 export * from './getUserByUrsId'
 export * from './rooms'
