@@ -27,7 +27,8 @@
     "@kaistian/types": "workspace:../types",
     "dateformat": "^5.0.3",
     "jsdom": "^24.0.0",
-    "zod": "^3.22.4"
+    "zod": "^3.22.4",
+    "zod-validation-error": "^3.1.0"
   },
   "devDependencies": {
     "@types/dateformat": "^5.0.2",
