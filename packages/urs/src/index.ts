@@ -1,3 +1,5 @@
+export * from './error'
 export * from './getUrsSessionId'
+export * from './getUserByUrsId'
 export * from './rooms'
 export * from './searchUserByName'
