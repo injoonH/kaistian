@@ -28,7 +28,7 @@ export const loginKaistSuccessSchema = z
         ku_person_type_kor: z.string().nullable(),
         ku_psft_user_status_kor: z.string().nullable(),
         ku_born_date: z.coerce.date(),
-        ku_std_no: z.coerce.number().nullable(),
+        ku_std_no: z.string().nullable(),
         ku_psft_user_status: z.string().nullable(),
         employeeType: z.string(),
         givenname: z.string(),
