@@ -6,7 +6,7 @@ import { z } from 'zod'
 import { fromZodError } from 'zod-validation-error'
 
 import type { UrsError } from './error'
-import { Room, type RoomId, type SpaceId } from './rooms'
+import { Room, type RoomId, type SpaceId } from './room'
 
 const spaceSchema = z
   .object({
