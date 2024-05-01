@@ -1,0 +1,42 @@
+{
+  "name": "@kaistian/urs",
+  "version": "0.1.0",
+  "description": "KAIST URS (Unified Reservation Service) API wrapper.",
+  "keywords": [
+    "kaist",
+    "kaistian",
+    "urs",
+    "reservation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/injoonH/kaistian.git",
+    "directory": "packages/urs"
+  },
+  "license": "MIT",
+  "author": "Injoon Hwang <yuwol036@gmail.com>",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "dependencies": {
+    "@kaistian/fetch": "workspace:../fetch",
+    "@kaistian/sso": "workspace:../sso",
+    "@kaistian/types": "workspace:../types",
+    "dateformat": "^5.0.3",
+    "jsdom": "^24.0.0",
+    "ts-pattern": "^5.1.1",
+    "zod": "^3.22.4",
+    "zod-validation-error": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/dateformat": "^5.0.2",
+    "@types/jsdom": "^21.1.6"
+  }
+}
